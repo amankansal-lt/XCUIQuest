@@ -13,20 +13,11 @@
 		154245762CD08B8900599C55 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 154245752CD08B8900599C55 /* Base */; };
 		154245782CD08B8A00599C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154245772CD08B8A00599C55 /* Assets.xcassets */; };
 		1542457B2CD08B8A00599C55 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1542457A2CD08B8A00599C55 /* Base */; };
-		154245862CD08B8A00599C55 /* XCUIQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154245852CD08B8A00599C55 /* XCUIQuestTests.swift */; };
-		154245902CD08B8A00599C55 /* XCUIQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1542458F2CD08B8A00599C55 /* XCUIQuestUITests.swift */; };
-		154245922CD08B8A00599C55 /* XCUIQuestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154245912CD08B8A00599C55 /* XCUIQuestUITestsLaunchTests.swift */; };
+		154245A52CD08E9000599C55 /* XCUIQues_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154245A42CD08E9000599C55 /* XCUIQues_UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		154245822CD08B8A00599C55 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 154245632CD08B8900599C55 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1542456A2CD08B8900599C55;
-			remoteInfo = XCUIQuest;
-		};
-		1542458C2CD08B8A00599C55 /* PBXContainerItemProxy */ = {
+		154245A82CD08E9000599C55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 154245632CD08B8900599C55 /* Project object */;
 			proxyType = 1;
@@ -44,11 +35,8 @@
 		154245772CD08B8A00599C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1542457A2CD08B8A00599C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1542457C2CD08B8A00599C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		154245812CD08B8A00599C55 /* XCUIQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUIQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		154245852CD08B8A00599C55 /* XCUIQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIQuestTests.swift; sourceTree = "<group>"; };
-		1542458B2CD08B8A00599C55 /* XCUIQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUIQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1542458F2CD08B8A00599C55 /* XCUIQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIQuestUITests.swift; sourceTree = "<group>"; };
-		154245912CD08B8A00599C55 /* XCUIQuestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIQuestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		154245A22CD08E9000599C55 /* XCUIQues UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCUIQues UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		154245A42CD08E9000599C55 /* XCUIQues_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIQues_UITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +47,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1542457E2CD08B8A00599C55 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		154245882CD08B8A00599C55 /* Frameworks */ = {
+		1542459F2CD08E9000599C55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				1542456D2CD08B8900599C55 /* XCUIQuest */,
-				154245842CD08B8A00599C55 /* XCUIQuestTests */,
-				1542458E2CD08B8A00599C55 /* XCUIQuestUITests */,
+				154245A32CD08E9000599C55 /* XCUIQues UITests */,
 				1542456C2CD08B8900599C55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				1542456B2CD08B8900599C55 /* XCUIQuest.app */,
-				154245812CD08B8A00599C55 /* XCUIQuestTests.xctest */,
-				1542458B2CD08B8A00599C55 /* XCUIQuestUITests.xctest */,
+				154245A22CD08E9000599C55 /* XCUIQues UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,21 +89,12 @@
 			path = XCUIQuest;
 			sourceTree = "<group>";
 		};
-		154245842CD08B8A00599C55 /* XCUIQuestTests */ = {
+		154245A32CD08E9000599C55 /* XCUIQues UITests */ = {
 			isa = PBXGroup;
 			children = (
-				154245852CD08B8A00599C55 /* XCUIQuestTests.swift */,
+				154245A42CD08E9000599C55 /* XCUIQues_UITests.swift */,
 			);
-			path = XCUIQuestTests;
-			sourceTree = "<group>";
-		};
-		1542458E2CD08B8A00599C55 /* XCUIQuestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1542458F2CD08B8A00599C55 /* XCUIQuestUITests.swift */,
-				154245912CD08B8A00599C55 /* XCUIQuestUITestsLaunchTests.swift */,
-			);
-			path = XCUIQuestUITests;
+			path = "XCUIQues UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,40 +117,22 @@
 			productReference = 1542456B2CD08B8900599C55 /* XCUIQuest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		154245802CD08B8A00599C55 /* XCUIQuestTests */ = {
+		154245A12CD08E9000599C55 /* XCUIQues UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 154245982CD08B8A00599C55 /* Build configuration list for PBXNativeTarget "XCUIQuestTests" */;
+			buildConfigurationList = 154245AA2CD08E9000599C55 /* Build configuration list for PBXNativeTarget "XCUIQues UITests" */;
 			buildPhases = (
-				1542457D2CD08B8A00599C55 /* Sources */,
-				1542457E2CD08B8A00599C55 /* Frameworks */,
-				1542457F2CD08B8A00599C55 /* Resources */,
+				1542459E2CD08E9000599C55 /* Sources */,
+				1542459F2CD08E9000599C55 /* Frameworks */,
+				154245A02CD08E9000599C55 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				154245832CD08B8A00599C55 /* PBXTargetDependency */,
+				154245A92CD08E9000599C55 /* PBXTargetDependency */,
 			);
-			name = XCUIQuestTests;
-			productName = XCUIQuestTests;
-			productReference = 154245812CD08B8A00599C55 /* XCUIQuestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1542458A2CD08B8A00599C55 /* XCUIQuestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1542459B2CD08B8A00599C55 /* Build configuration list for PBXNativeTarget "XCUIQuestUITests" */;
-			buildPhases = (
-				154245872CD08B8A00599C55 /* Sources */,
-				154245882CD08B8A00599C55 /* Frameworks */,
-				154245892CD08B8A00599C55 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1542458D2CD08B8A00599C55 /* PBXTargetDependency */,
-			);
-			name = XCUIQuestUITests;
-			productName = XCUIQuestUITests;
-			productReference = 1542458B2CD08B8A00599C55 /* XCUIQuestUITests.xctest */;
+			name = "XCUIQues UITests";
+			productName = "XCUIQues UITests";
+			productReference = 154245A22CD08E9000599C55 /* XCUIQues UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,11 +148,7 @@
 					1542456A2CD08B8900599C55 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					154245802CD08B8A00599C55 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 1542456A2CD08B8900599C55;
-					};
-					1542458A2CD08B8A00599C55 = {
+					154245A12CD08E9000599C55 = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 1542456A2CD08B8900599C55;
 					};
@@ -220,8 +168,7 @@
 			projectRoot = "";
 			targets = (
 				1542456A2CD08B8900599C55 /* XCUIQuest */,
-				154245802CD08B8A00599C55 /* XCUIQuestTests */,
-				1542458A2CD08B8A00599C55 /* XCUIQuestUITests */,
+				154245A12CD08E9000599C55 /* XCUIQues UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,14 +184,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1542457F2CD08B8A00599C55 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		154245892CD08B8A00599C55 /* Resources */ = {
+		154245A02CD08E9000599C55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,35 +204,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1542457D2CD08B8A00599C55 /* Sources */ = {
+		1542459E2CD08E9000599C55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				154245862CD08B8A00599C55 /* XCUIQuestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		154245872CD08B8A00599C55 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				154245922CD08B8A00599C55 /* XCUIQuestUITestsLaunchTests.swift in Sources */,
-				154245902CD08B8A00599C55 /* XCUIQuestUITests.swift in Sources */,
+				154245A52CD08E9000599C55 /* XCUIQues_UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		154245832CD08B8A00599C55 /* PBXTargetDependency */ = {
+		154245A92CD08E9000599C55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1542456A2CD08B8900599C55 /* XCUIQuest */;
-			targetProxy = 154245822CD08B8A00599C55 /* PBXContainerItemProxy */;
-		};
-		1542458D2CD08B8A00599C55 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1542456A2CD08B8900599C55 /* XCUIQuest */;
-			targetProxy = 1542458C2CD08B8A00599C55 /* PBXContainerItemProxy */;
+			targetProxy = 154245A82CD08E9000599C55 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -491,56 +417,15 @@
 			};
 			name = Release;
 		};
-		154245992CD08B8A00599C55 /* Debug */ = {
+		154245AB2CD08E9000599C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8WH83DMLCD;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.XCUIQuestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCUIQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCUIQuest";
-			};
-			name = Debug;
-		};
-		1542459A2CD08B8A00599C55 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8WH83DMLCD;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.XCUIQuestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCUIQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCUIQuest";
-			};
-			name = Release;
-		};
-		1542459C2CD08B8A00599C55 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8WH83DMLCD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.XCUIQuestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.XCUIQues-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -549,16 +434,15 @@
 			};
 			name = Debug;
 		};
-		1542459D2CD08B8A00599C55 /* Release */ = {
+		154245AC2CD08E9000599C55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8WH83DMLCD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.XCUIQuestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.XCUIQues-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -588,20 +472,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		154245982CD08B8A00599C55 /* Build configuration list for PBXNativeTarget "XCUIQuestTests" */ = {
+		154245AA2CD08E9000599C55 /* Build configuration list for PBXNativeTarget "XCUIQues UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				154245992CD08B8A00599C55 /* Debug */,
-				1542459A2CD08B8A00599C55 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1542459B2CD08B8A00599C55 /* Build configuration list for PBXNativeTarget "XCUIQuestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1542459C2CD08B8A00599C55 /* Debug */,
-				1542459D2CD08B8A00599C55 /* Release */,
+				154245AB2CD08E9000599C55 /* Debug */,
+				154245AC2CD08E9000599C55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
