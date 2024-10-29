@@ -20,7 +20,7 @@ The Go-iOS tool also makes it feasible to run tests on iOS devices within a CI/C
 
 To start testing on iOS devices with Go-iOS, follow these setup steps:
 
-1. **Download Go-iOS** and set up the binary on your Linux system.
+1. **Download Go-iOS** and set up the binary on your system.
 2. **Initiate the Device Tunnel** – for iOS 17 and above, a tunnel must be established to connect to the iOS device.
 3. **Run XCUITest** – define the app and test bundle identifiers to launch the tests.
 
