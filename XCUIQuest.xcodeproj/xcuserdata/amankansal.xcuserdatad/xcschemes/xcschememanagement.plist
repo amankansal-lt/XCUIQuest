@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>UITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>XCUIQues UITests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>1581A0D22CD0AE9E0071364F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1581A0E12CD0BA660071364F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
