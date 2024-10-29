@@ -158,6 +158,21 @@ Adding `--verbose` provides additional logging information, which is useful for 
 
 ---
 
+
+### Note :
+in the source code provided :
+
+1. UI Tests : test target does not work
+``` 
+./go-ios --udid=00008110-001E04C10C8A801E runtest --bundle-id=com.example.XCUIQuest --test-runner-bundle-id=com.example.XUI-Tests.xctrunner --tunnel-info-port=27109 --xctest-config "UI Tests.xctest" --test-to-run="UI Tests.ArticleTests/testExample1" --verbose
+
+ ```
+2. UITest test target works fine 
+
+``` 
+go-ios --udid=00008110-001E04C10C8A801E runtest --bundle-id=com.example.XCUIQuest --test-runner-bundle-id=com.example.UITests.xctrunner --tunnel-info-port=27109 --xctest-config "UITests.xctest" --test-to-run="UITests.NewClassTests/testExample1" --verbose
+```
+
 ## Go-iOS and XCUITest Documentation Summary
 
 For further details, check the
