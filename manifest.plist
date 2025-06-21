@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://stage-lt-app-artefacts.lambdatestinternal.com/stage/33315837/2025/06/18/amanappipa-1750257589349.ipa</string>
+					<string>https://filebin.net/914y3nuem2vqgnfh/chrome.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.example.demowhitelistedapp</string>
+				<string>com.google.chrome.ios</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>137.0.7151.79</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>amanapp</string>
+				<string>Chrome</string>
 			</dict>
 		</dict>
 	</array>
